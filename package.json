@@ -4,6 +4,7 @@
   "description": "Electron RSS reader",
   "main": "index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,4 +17,7 @@
     "url": "https://github.com/peteoshea/electron-rss/issues"
   },
   "homepage": "https://github.com/peteoshea/electron-rss#readme",
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
 }

@@ -1,0 +1,18 @@
+name: CI
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run the bash test script
+        run: script/test
+
+      - name: Install powershell script analyser
+        run: Install-Module -Name PSScriptAnalyzer -Force
+        shell: pwsh
+
+      - name: Run the powershell test script
+        run: script/test.ps1
+        shell: pwsh

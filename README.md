@@ -1,8 +1,9 @@
-# Node.js Template
+# Electron RSS Reader
 
-[![CI](https://github.com/peteoshea/node-template/workflows/CI/badge.svg)](https://github.com/peteoshea/node-template/actions)
+[![CI](https://github.com/peteoshea/electron-rss/workflows/CI/badge.svg)](https://github.com/peteoshea/electron-rss/actions)
 
-A template repository for a [Node.js](https://nodejs.org/) project.
+A simple RSS reader project to test out Electron.
+
 This includes scripts to get a development system setup on Windows, Linux or hopefully MacOS, although I don't own a Mac so I cannot be sure.
 
 The version of Node.js can be specified in [.nvmrc](.nvmrc) but be aware that due to restrictions with [nvm-windows][nvm-windows] this needs to be the full version number e.g. 14.5.0 or v12.8.2.
